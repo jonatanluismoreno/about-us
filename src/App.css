@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.speechBubbleThin {
+  width: 14px;
+  height: 14px;
+  display: block;
+  fill: inherit;
+  flex-shrink: 0;
+  backface-visibility: hidden;
+  margin-right: 6px;
+}
