@@ -5,7 +5,7 @@
 .header--box {
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
     font-family: ui-sans-serif,
@@ -26,6 +26,16 @@
 
 .hearder--options {
     display: inline-block;
+}
+
+.speechBubbleThin {
+    width: 14px;
+    height: 14px;
+    display: block;
+    fill: inherit;
+    flex-shrink: 0;
+    backface-visibility: hidden;
+    margin-right: 6px;
 }
 
 

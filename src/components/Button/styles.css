@@ -6,6 +6,7 @@
     background-color: transparent;
     font-size: 13px;
     letter-spacing: .015cm;
+    padding: 10px;
 }
 
 .hover:hover {
@@ -23,4 +24,14 @@
 .bordered {
     border-style: solid;
     border-color:rgb(238, 238, 238);
+}
+
+.speechBubbleThin {
+    width: 14px;
+    height: 14px;
+    display: block;
+    fill: inherit;
+    flex-shrink: 0;
+    backface-visibility: hidden;
+    margin-right: 6px;
 }

@@ -13,9 +13,21 @@ export default function Button (params) {
     if (params.bordered) {
         classes = classes + ' bordered '
     }
-    return (
-        <button className={classes}>
-            {params.text}
-        </button>
-    )
+
+    if (params.icon !== undefined) {
+        return (
+            <button className={classes}>
+                {<params.icon/>}
+                {params.text}
+            </button>
+        )
+            
+    }
+    else {
+        return (
+            <button className={classes}>
+                {params.text}
+            </button>
+        )
+    }
 }
